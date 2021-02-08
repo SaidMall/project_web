@@ -939,11 +939,16 @@ input[type=email]:focus::placeholder {
     max-width: 650px;
     max-height: 420px;
     display: flex;
+    flex-wrap: wrap;
     margin-top: 100px;
     position: relative;
     background-color: #F8F8F8;
 }
 
+.cart_number a {
+    display: flex;
+
+}
 .cart-btn-block {
     /* outline: 1px solid rgb(174, 197, 45); */
     margin: 70px 0 130px 0;
