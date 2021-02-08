@@ -920,7 +920,7 @@ input[type=email]:focus::placeholder {
 
 /* for cart page */
 .cart_page {
-    outline: 1px solid rgb(240, 37, 11);
+    /* outline: 1px solid rgb(240, 37, 11); */
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -928,24 +928,25 @@ input[type=email]:focus::placeholder {
 }
 
 .cart_products {
-    outline: 1px solid rgb(25, 197, 39);
+    /* outline: 1px solid rgb(25, 197, 39); */
     max-width: 650px;
     display: flex;
     flex-direction: column;
 }
 
 .cart_number {
-    outline: 1px solid rgb(174, 197, 45);
+    /* outline: 1px solid rgb(174, 197, 45); */
     max-width: 650px;
     max-height: 420px;
     display: flex;
-    /* margin: 15px; */
+    margin-top: 100px;
     position: relative;
     background-color: #F8F8F8;
 }
 
 .cart-btn-block {
-    outline: 1px solid rgb(174, 197, 45);
+    /* outline: 1px solid rgb(174, 197, 45); */
+    margin: 70px 0 130px 0;
     width: 650px;
     height: 50px;
     display: flex;
@@ -953,30 +954,25 @@ input[type=email]:focus::placeholder {
 
 }
 
-
-.cart-btn {
+.cart-btn2 {
     background-color: transparent;
-    background-repeat: no-repeat;
     background-position: 10px;
     min-width: 230px;
     min-height: 50px;
     border: 1px solid #A4A4A4;
     font-size: 15px;
-    margin: auto;
     box-sizing: border-box;
     color: #000000;
-    /* margin: 65px 0; */
-    /* line-height: 48px; */
 }
 
-.cart-btn:hover {
+.cart-btn2:hover {
     cursor: pointer;
-    background-color: #FF6A6A;
+    background-color: #F16D7F;
     color: #ffffff;
 
 }
 
-.cart-btn:active {
+.cart-btn2:active {
     color: #000000;
 }
 
@@ -994,8 +990,19 @@ input[type=email]:focus::placeholder {
 
 
 /* for form  */
+.shipping_form {
+    display: flex;
+    flex-direction: column;
+}
 
-input[type=text] {
+.shipping_form h3 {
+    margin: 100px 0 10px 0;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 20px;
+}
+
+.shipping_form input[type=text] {
     width: 100%;
     margin-bottom: 10px;
     padding: 8px;
@@ -1003,40 +1010,77 @@ input[type=text] {
     border-radius: 3px;
 }
 
-label {
+.shipping_form label {
     margin-bottom: 5px;
     display: block;
 }
 
-
-.btn {
-    background-color: #4CAF50;
-    color: white;
-    padding: 12px;
-    margin: 10px 0;
-    border: none;
-    width: 100%;
-    border-radius: 3px;
-    cursor: pointer;
-    font-size: 17px;
+.check_form {
+    background-color: #F5F3F3;
+    min-width: 360px;
+    min-height: 200px;
+    margin: 45px 0 100px 0;
+    padding: 40px;
 }
 
-.btn:hover {
-    background-color: #45a049;
+
+.check_form a {
+    color: #7298b8;
 }
 
-a {
-    color: #2196F3;
-}
 
-hr {
+.check_form hr {
     border: 1px solid lightgrey;
 }
 
-span.price {
+.check_form span.price {
     float: right;
     color: grey;
 }
 
+.check-btn {
+    background-color: transparent;
+    min-width: 250px;
+    min-height: 55px;
+    border: 1px solid #A4A4A4;
+    font-size: 16px;
+    margin: 30px 55px;
+    box-sizing: border-box;
+    color: #000000;
+}
+
+.check-btn:hover {
+    cursor: pointer;
+    background-color: #F16D7F;
+    color: #ffffff;
+
+}
+
+.check-btn:active {
+    color: #000000;
+}
+
+
+.form-btn {
+    background-color: transparent;
+    min-width: 120px;
+    min-height: 35px;
+    border: 1px solid #A4A4A4;
+    font-size: 14px;
+    margin: 0 50% 0 0;
+    box-sizing: border-box;
+    color: #000000;
+}
+
+.form-btn:hover {
+    cursor: pointer;
+    background-color: #F16D7F;
+    color: #ffffff;
+
+}
+
+.cart-btn:active {
+    color: #000000;
+}
 
 /* END */
