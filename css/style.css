@@ -1175,7 +1175,6 @@ input[type=email]:focus::placeholder {
     color: #000000;
 }
 
-
 .reg_form label {
     margin-bottom: 5px;
     display: block;
