@@ -1,11 +1,44 @@
+@font-face {
+    font-family: "lato";
+    src: url(../fonts/lato-thin.ttf);
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "lato";
+    src: url(../fonts/lato-light.ttf);
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "lato";
+    src: url(../fonts/lato-regular.ttf);
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: "lato";
+    src: url(../fonts/lato-bold.ttf);
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: "lato";
+    src: url(../fonts/lato-black.ttf);
+    font-weight: 900;
+    font-style: normal;
+}
+
+
 * {
     margin: 0;
     padding: 0;
 }
 
 body {
-    font-family: 'Lato', sans-serif;
-    /* min-height: 3800px; */
+    font-family: "lato", sans-serif;
 
 }
 
@@ -29,8 +62,6 @@ header {
     margin: 17px 0px;
 
 }
-
-
 
 .search-icon-form {
     position: absolute;
