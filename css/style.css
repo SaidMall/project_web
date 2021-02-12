@@ -99,21 +99,26 @@ nav ul {
     padding: 0;
 }
 
-.topmenu>li {
+.menu>li {
     vertical-align: middle;
     float: left;
     position: relative;
 
 }
 
-.topmenu>li>a {
+.menu>li>a {
     text-align: center;
     margin: 20px 30px;
 
 }
 
-.topmenu li a:hover {
+.menu li a:hover {
     color: #19c013;
+}
+
+.menu>li:hover .submenu {
+    opacity: 1;
+    transform: scaleY(1);
 }
 
 .submenu-link:after {
@@ -153,10 +158,7 @@ nav ul {
     border-bottom: none;
 }
 
-.topmenu>li:hover .submenu {
-    opacity: 1;
-    transform: scaleY(1);
-}
+
 
 .home_page1 {
     background-color: #F1E4E6;
