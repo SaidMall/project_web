@@ -160,7 +160,7 @@ input[type=search]:focus {
 
 
 
-.home_page1 {
+.home_block {
     background-color: #F1E4E6;
     min-height: 763px;
     display: flex;
@@ -168,7 +168,7 @@ input[type=search]:focus {
     justify-content: space-around;
 }
 
-.home_page1 img {
+.home_block img {
     max-height: 763px;
     padding: 0 50px 0 0;
 
@@ -204,7 +204,7 @@ input[type=search]:focus {
     color: #F16D7F;
 }
 
-.offer_page {
+.offer_block {
     margin: 40px auto;
 }
 
@@ -280,8 +280,8 @@ input[type=search]:focus {
     color: #FFFFFF;
 }
 
-.product_page {
-   
+.product_block {
+   margin: 0 0 100px 0;
 }
 
 .product-head-txt {
@@ -429,7 +429,7 @@ input[type=search]:focus {
     /* background-color: #FF6A6A; */
 }
 
-.feature_page {
+.feature_block {
     min-height: 340px;
     background-color: #222224;
     /* outline: 1px solid rgb(151, 197, 45); */
@@ -466,7 +466,7 @@ input[type=search]:focus {
     text-align: center;
 }
 
-.subsribe-page {
+.subsribe-block {
     background-image: url(../img/bgr-img-subscribe.png);
     background-repeat: no-repeat;
     background-position: center;
@@ -737,7 +737,7 @@ input[type=email]:focus::placeholder {
     width: 100px;
 }
 
-.number-page-block {
+.number-block-block {
     box-sizing: border-box;
     text-decoration: none;
     border: 1px solid #EBEBEB;
@@ -755,25 +755,25 @@ input[type=email]:focus::placeholder {
 }
 
 
-.number-page-block li a {
+.number-block-block li a {
     /* box-sizing: border-box; */
     text-decoration: none;
     color: #C4C4C4;
     padding: 0 10px;
 }
 
-.number-page-block li:first-child::before {
+.number-block-block li:first-child::before {
     content: url(../icon/number-page1-icon.svg);
     margin: 0 15px;
 }
 
-.number-page-block li:last-child::after {
+.number-block-block li:last-child::after {
     content: url(../icon/number-page2-icon.svg);
     margin: 0 15px;
 
 }
 
-.number-page-link a:hover {
+.number-block-link a:hover {
     color: #EF5B70;
     font-weight: 600;
 }
@@ -781,7 +781,7 @@ input[type=email]:focus::placeholder {
 
 /* for product site  */
 
-.slider-page {
+.slider-block {
     background-color: #F7F7F7;
     text-align: center;
     position: relative;
@@ -926,7 +926,7 @@ input[type=email]:focus::placeholder {
 
 
 /* for cart page */
-.cart_page {
+.cart_block {
     /* outline: 1px solid rgb(240, 37, 11); */
     display: flex;
     flex-wrap: wrap;
@@ -1031,7 +1031,7 @@ input[type=email]:focus::placeholder {
     color: #000000;
 }
 
-.shipping_page {
+.shipping_block {
     max-width: 360px;
     display: flex;
     flex-direction: column;
@@ -1134,5 +1134,12 @@ input[type=email]:focus::placeholder {
     cursor: pointer;
     background-color: #F16D7F;
     color: #ffffff;
+
+}
+
+.registration_block {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 
 }
