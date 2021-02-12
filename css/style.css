@@ -1058,7 +1058,7 @@ input[type=email]:focus::placeholder {
     text-transform: uppercase;
 }
 
-.shipping_form input[type=text] {
+.shipping_form input[type=text], input[type=password], input[type=email] {
     width: 100%;
     margin-bottom: 10px;
     padding: 8px;
@@ -1069,6 +1069,10 @@ input[type=email]:focus::placeholder {
 .shipping_form label {
     margin-bottom: 5px;
     display: block;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 20px;
+    color: #222222;
 }
 
 .check_form {
@@ -1136,10 +1140,123 @@ input[type=email]:focus::placeholder {
     color: #ffffff;
 
 }
-
+/* for registration page */
 .registration_block {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    margin: 100px auto;
 
+}
+
+.reg_form {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.reg_form input[type=text], input[type=password], input[type=email] {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.reg_form-gender {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    margin: 25px 0;
+    color: #000000;
+}
+
+
+.reg_form label {
+    margin-bottom: 5px;
+    display: block;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 20px;
+    color: #222222;
+}
+
+
+
+.reg-txt {
+    transition: 0.3s;
+    max-width: 650px;
+    max-height: 420px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+.reg-txt h2 {
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 30px;
+    color: #000000;
+    text-transform: uppercase;
+}
+.reg-txt p {
+    margin: 20px 0;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 30px;
+    color: #000000;
+}
+
+.reg-txt ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 30px;
+    color: #000000;
+    margin: 0 0 0 30px;
+}
+
+.reg-feature {
+    list-style: url(../icon/reg-feature-icon.svg);
+    padding: 5px 0 5px 10px;
+}
+.reg-feature:last-child {
+    margin-bottom: 60px;
+}
+
+.under-password-txt {
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 16px;
+    color: #B1B1B1;
+}
+
+.join-btn {
+    background-color: transparent;
+    max-width: 180px;
+    min-height: 50px;
+    border: 1px solid #A4A4A4;
+    font-size: 16px;
+    margin: 40px 0px 0 0;
+    box-sizing: border-box;
+    color: #000000;
+    text-transform: uppercase;
+}
+
+.join-btn:hover {
+    cursor: pointer;
+    background-color: #F16D7F;
+    color: #ffffff;
+
+}
+
+.join-btn:active {
+    color: #000000;
 }
