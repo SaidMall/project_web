@@ -1503,7 +1503,14 @@ input[type=email]:focus::placeholder {
 @media (max-width: 768px) {
   
     .padding-site {
-        padding: 0 30px;
+        /* padding: 0 30px; */
+        width: 752px;
+    }
+    .search-icon-form {
+        margin: auto 0 auto 30px;
+    }
+    .page-header-wrp-btn {
+        margin: auto 30px auto 0;
     }
     .home-block-banner {
       min-height: 368px;
@@ -1515,7 +1522,7 @@ input[type=email]:focus::placeholder {
 
     .banner-txt {
       width: 310px;
-      margin: auto;
+      margin: auto 0;
     }
     .banner-title {
      font-size: 44px; 
@@ -1525,14 +1532,20 @@ input[type=email]:focus::placeholder {
     }
     .offer_block {
       /* align-items: flex-end; */
-      margin: 20px 0 0 0;
+      margin: 20px auto;
       max-width: 737px;
     }
     .offer-card {
       width: 232px;
       min-height: 168px;
       margin: 0 19px 19px 0;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 24px;
+      line-height: 29px;
+      text-align: center;
     }
+
     .offer-card:nth-child(4n-1){
       margin: 0 0 19px;
     }
@@ -1541,5 +1554,176 @@ input[type=email]:focus::placeholder {
         width: 232px;
         min-height: 168px;
         padding: 60px 0 0 0;
-      }
+    }
+      
+    .offer-last {
+        min-height: 116px;
+        margin: 0px auto;
+            
+    }
+
+    .offer-last a {
+        min-width: 736px;
+        max-height: 116px;
+        padding: 25px 0 0 0;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 29px;
+        text-align: center;
+    }
+    .product_block {
+        margin: 0 0 0 0;
+    }
+    .product {            
+        margin: 8px;
+    }    
+
+    .foto-banner {
+        background-position: 100px;
+    }
+
+    .all-product-btn {
+        margin: 35px auto 0 auto;
+    }
+
+    .feature_block {
+        display: flex;
+        flex-flow: wrap;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .feature {
+        width: 360px;
+        margin:  30px 0 0 0;
+        padding: 0;
+    }
+    .feature:first-child {
+        margin:  50px 0 0 0;
+    }
+
+    .feature:last-child {
+        margin:  30px 0 50px 0;
+    }
+
+    .feature h3 {
+        padding: 0px;
+    }
+
+    .subsribe-block {
+        display: flex;
+        flex-flow: wrap;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .info {
+        width: 360px;
+        margin: auto;
+    }
+    .info p {
+        padding:0;
+    }
+    
+    .subsribe-form {
+        width: 100%;
+        margin: auto;
+    }
+
+    .subsribe-form h2 {
+        margin: 0;
+    }
+
+    .subsribe-form p {
+        margin: 0;
+    }
+
+    form.subsribe-form input[type=email] {
+        margin-top: 27px;
+    }
+
+    footer span {
+        margin: auto 0 auto 32px;
+    }
+    .social-icon {
+        margin: auto 32px auto 0;
  
+    }
+
+
+
+
+
+}
+
+
+/* ========= @media 375px iphone ========= */
+
+@media (max-width: 375px) {
+    
+    .padding-site {
+        width: 358px;
+    }
+
+    .search-icon-form {
+        margin: auto 0 auto 20px;
+    }
+
+       
+    .basket-btn, .personal-account-btn {
+        display: none;
+    }
+    .menu-btn {
+        position: absolute;
+        top: 20px;
+        right: 16px;
+    }
+
+   
+    .foto-banner {
+        display: none;  
+    }
+    .banner-txt {
+        margin: 150px 60px;
+    }
+
+    .banner-title {
+        font-size: 38px;
+        line-height: 46px;
+    }
+    .banner-subtitle {
+        font-size: 20px;
+    }
+   
+
+    .offer-card {
+        width: 343px;
+        min-height: 247px;
+        margin: 8px;
+    }
+
+    .offer-card a {
+        width: 343px;
+        min-height: 247px;
+        padding: 100px 0 0 0;
+    }
+   .offer-card:nth-child(4n-1) {
+        margin: 0 0 9px 0;
+    }
+
+
+    .product-head-txt p {
+        font-size: 14px;
+        line-height: 16px;
+        color: #9F9F9F;
+    }
+
+
+
+    .info p {
+        font-size: 18px;
+        line-height: 20px;
+    }
+   
+}
