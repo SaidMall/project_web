@@ -79,9 +79,7 @@ header button {
 }
 
 .header-block svg {
-    /* width: 100%; */
-    /* height: 100%; */
-    fill: #E8E8E8;
+    fill: #ffffff;
 }
 
 .logo-icon:hover img {
@@ -864,6 +862,14 @@ input[type=email]:focus::placeholder {
     flex-wrap: wrap;
 }
 
+.subnav-wrp {
+    text-decoration: none;
+    list-style: none;
+    margin: auto 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
 .subnav-list a {
     text-decoration: none;
     text-transform: uppercase;
@@ -960,9 +966,9 @@ input[type=email]:focus::placeholder {
     box-sizing: border-box;
     text-decoration: none;
     border: 1px solid #EBEBEB;
-    border-radius: 5px;
+    border-radius: 0px;
     list-style: none;
-    width: 300px;
+    max-width: 360px;
     /* max-height: 45px; */
     font-weight: 500;
     font-size: 16px;
@@ -1001,10 +1007,19 @@ input[type=email]:focus::placeholder {
 /* for product site  */
 
 .slider-block {
+
     background-color: #F7F7F7;
     text-align: center;
     position: relative;
     margin: 0 auto;
+}
+.slider-foto {
+    height: 770px;
+    background-image: url(../img/slider-prdct-pg1.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+
 }
 
 .prev {
@@ -1265,6 +1280,7 @@ input[type=email]:focus::placeholder {
 
 /* for form  */
 .shipping_form {
+    position: relative;
     display: flex;
     flex-direction: column;
 }
@@ -1296,7 +1312,7 @@ input[type=email]:focus::placeholder {
 
 .check_form {
     background-color: #F5F3F3;
-    min-width: 360px;
+    min-width: 300px;
     min-height: 200px;
     margin: 55px 0 100px 0;
     padding: 40px;
@@ -1323,7 +1339,7 @@ input[type=email]:focus::placeholder {
     min-height: 55px;
     border: 1px solid #A4A4A4;
     font-size: 16px;
-    margin: 30px 55px;
+    margin: 25px;
     box-sizing: border-box;
     color: #000000;
     text-transform: uppercase;
@@ -1365,10 +1381,14 @@ input[type=email]:focus::placeholder {
     min-height: 35px;
     border: 1px solid #A4A4A4;
     font-size: 14px;
-    margin: 2% 50% 0 0;
+    /* margin: 2% 50% 0 0; */
     box-sizing: border-box;
     color: #000000;
     text-transform: uppercase;
+    position: absolute;
+    right: -20px;
+    bottom: 0;
+
 }
 
 .sbmt-form-btn:hover {
@@ -1496,7 +1516,6 @@ input[type=email]:focus::placeholder {
 .join-btn:active {
     color: #000000;
 }
-
 
 /* ========= @media 768px tablet ========= */
 
@@ -1650,6 +1669,39 @@ input[type=email]:focus::placeholder {
         margin: auto 32px auto 0;
  
     }
+    
+    .hide-card-768px {
+        display: none;
+    }
+
+    .subnav-name {
+        margin: auto 0px auto 16px;
+    }
+    .subnav-list {
+        margin: auto 16px auto 0;
+    
+    }
+    .filter-name {
+        margin: auto 0px auto 16px;
+    }
+    .sort-list {
+        margin: auto 16px auto 0;
+    
+    }
+    
+    .dop-flex-block3{
+        display: none;
+    }
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1669,7 +1721,6 @@ input[type=email]:focus::placeholder {
     .search-icon-form {
         margin: auto 0 auto 20px;
     }
-
        
     .basket-btn, .personal-account-btn {
         display: none;
@@ -1679,7 +1730,6 @@ input[type=email]:focus::placeholder {
         top: 20px;
         right: 16px;
     }
-
    
     .foto-banner {
         display: none;  
@@ -1695,7 +1745,6 @@ input[type=email]:focus::placeholder {
     .banner-subtitle {
         font-size: 20px;
     }
-   
 
     .offer-card {
         width: 343px;
@@ -1712,18 +1761,53 @@ input[type=email]:focus::placeholder {
         margin: 0 0 9px 0;
     }
 
-
     .product-head-txt p {
         font-size: 14px;
         line-height: 16px;
         color: #9F9F9F;
     }
 
-
-
     .info p {
         font-size: 18px;
         line-height: 20px;
+    }
+
+
+
+    .filter-icon {
+        margin: auto 0;
+        width: 37px ;
+        height: 25px;
+    }
+
+    .filter-name span {
+        display: none;
+    }
+    .subnav-name, .subnav-wrp {
+        margin: auto;
+    }
+    .subnav-list {
+        margin: auto 35px auto 0;
+        font-size: 12px;
+    }
+    .sort-list a {
+        margin: auto 0 auto 5px;
+        padding: 0 3px;
+    }
+    .slider-foto {
+        height: 625px;
+    }
+    .card-sort-list{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: start;
+        margin: 0;
+    }
+    .card-sort-list a {
+        font-size: 10px;
+        line-height: 10px;
+        
+
     }
    
 }
